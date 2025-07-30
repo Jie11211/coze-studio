@@ -70,7 +70,7 @@ EOF
 # Check if argon2-cffi is installed
 if ! python -c "import argon2" 2>/dev/null; then
     echo "Error: argon2-cffi library is required"
-    echo "Please run: pip3 install argon2-cffi"
+    echo "Please run: pip install argon2-cffi"
     exit 1
 fi
 
